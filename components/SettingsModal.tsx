@@ -121,7 +121,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   };
 
   const verifyPin = () => {
-    if (pinInput === '4501') {
+    if (pinInput === '3745') {
         setIsPinVerified(true);
         setShowPinScreen(false);
         if (pendingTab) setActiveTab(pendingTab as any);
